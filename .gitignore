@@ -1,0 +1,66 @@
+### --- Java & Maven --- ###
+# Compilados e pacotes
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+build.log
+*.class
+
+### --- macOS (Arquivos de Sistema) --- ###
+# Arquivos de visualização do Finder e pastas de sistema
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+### --- IDEs (IntelliJ, Eclipse, VS Code) --- ###
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.settings/
+.project
+.classpath
+.factorypath
+
+# Visual Studio Code
+.vscode/
+
+### --- Logs & Crash Reports --- ###
+*.log
+hs_err_pid*
+replay_pid*
+
+### --- Pacotes & Binários --- ###
+# Ignora binários, pois o Maven deve baixá-los via pom.xml
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+
+### --- NetBeans --- ###
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+build/
