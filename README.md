@@ -1,1 +1,1 @@
-# SI---Temporada-01
+# Repositório da Disciplina de Algoritmos e Estrutura de Dados
