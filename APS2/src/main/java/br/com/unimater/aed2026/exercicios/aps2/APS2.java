@@ -82,17 +82,17 @@ public class APS2 {
     static void exibirMapa(char[][] sala) {
         
         System.out.println("\n=== MAPA DE ASSENTOS ===\n");
-        System.out.println(" L = Livre | R = Reservado\n");
+        System.out.println("L = Livre || R = Reservado\n");
  
         System.out.print("    ");
         for (int j = 1; j <= COLUNAS; j++)
-            System.out.print("  " + j + " ");
+            System.out.print(" " + j + "  ");
         System.out.println();
  
         for (int i = 0; i < FILEIRAS; i++) {
             System.out.print(" " + LETRAS_FILEIRAS[i] + "  ");
             for (int j = 0; j < COLUNAS; j++)
-                System.out.print("[" + sala[i][j] + "] ");
+                System.out.print("|" + sala[i][j] + "| ");
             System.out.println();
         }
     }
